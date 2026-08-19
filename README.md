@@ -1,6 +1,5 @@
 # Landing Page Mash
 
-testando webhook
 
 Landing page institucional do projeto **Mash**, desenvolvido pela equipe Conloq no Projeto Integrador.
 
