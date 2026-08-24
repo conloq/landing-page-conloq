@@ -1,0 +1,126 @@
+
+=== DIRECTORY TREE (max depth 3, source files only) ===
+.maestri
+.maestri\roles
+.maestri\roles\b97d679e-ba43-48cb-8268-60dc1e562198
+.maestri\roles\b97d679e-ba43-48cb-8268-60dc1e562198\AGENTS.md
+.maestri\roles\b97d679e-ba43-48cb-8268-60dc1e562198\CLAUDE.md
+.maestri\roles\b97d679e-ba43-48cb-8268-60dc1e562198\role.json
+AGENTS.md
+assets
+assets\css
+assets\css\style.css
+assets\img
+assets\img\backgroundGirls.png
+assets\img\carrossel
+assets\img\carrossel\cerveja-2.jpg
+assets\img\carrossel\cerveja.png
+assets\img\carrossel\cerveja3.jpg
+assets\img\equipe
+assets\img\equipe\Haimon.jpeg
+assets\img\equipe\Joao.jpeg
+assets\img\equipe\Jocieli.jpeg
+assets\img\equipe\Kevin.jpeg
+assets\img\icons
+assets\img\icons\automacao.svg
+assets\img\icons\decisoes.svg
+assets\img\icons\footer
+assets\img\icons\github.svg
+assets\img\icons\ic_outline-facebook.svg
+assets\img\icons\instagram.svg
+assets\img\icons\linkedin.svg
+assets\img\icons\processos.svg
+assets\img\logos
+assets\img\logos\Logo-header-Branco.svg
+assets\img\logos\Logo-header.svg
+assets\img\logos\Logo-hero.svg
+assets\img\telas
+assets\img\telas\painel.png
+assets\img\telas\temperatura.png
+assets\script
+assets\script\main.js
+docs
+docs\codebase
+docs\codebase\.codebase-scan.txt
+index.html
+LICENSE
+README.md
+
+=== STACK DETECTION (manifest files) ===
+No recognized manifest files found in project root.
+
+=== ENTRY POINTS ===
+No common entry points found. Check 'main' or 'scripts.start' in manifest files above.
+
+=== LINTING AND FORMATTING CONFIG ===
+No linting or formatting config files found in project root.
+
+=== ENVIRONMENT VARIABLE TEMPLATES ===
+No .env.example or .env.template found. Identify required environment variables by searching the code and config for environment variable reads.
+
+=== TODO / FIXME / HACK (production code only, test dirs excluded) ===
+None found.
+
+=== GIT RECENT COMMITS (last 20) ===
+9e577be @haimonvieira
+c1c3b97 teste
+9ebec00 adicionado os icones em 'Propositos'
+5a11a82 docs: atualizar README da landing page
+ca0d70b first commit
+c23a21a Letra atualizada
+e945705 Landingpage
+ba7b647 LandingPage Finalizada
+fc4a02e Corrigindo carrossel
+d8bfa21 Corrijindo erro touch
+bfd56bb Problema links
+f04269c CorreÃ§Ã£o botao cta
+9e6c9bd CorreÃ§Ã£o botao e links
+bf70895 landing-page finalizada
+4f403d7 Landing page 0.1
+7d9a082 Initial commit
+
+=== HIGH-CHURN FILES (last 90 days, top 20) ===
+   4 README.md
+   1 AGENTS.md
+   1 assets/css/style.css
+   1 assets/img/icons/automacao.svg
+   1 assets/img/icons/decisoes.svg
+   1 assets/img/icons/processos.svg
+   1 index.html
+
+=== MONOREPO SIGNALS ===
+No monorepo signals detected.
+
+=== CODE METRICS ===
+Total files scanned: 35
+Total lines of code: 46
+
+Files by language:
+  Other: 34
+  JavaScript: 1
+
+Top 10 largest files:
+assets\img\telas\temperatura.png: 2266.9KB
+assets\img\telas\painel.png: 2091.3KB
+assets\img\carrossel\cerveja.png: 720.8KB
+assets\img\backgroundGirls.png: 397.0KB
+assets\img\carrossel\cerveja3.jpg: 211.8KB
+assets\img\carrossel\cerveja-2.jpg: 107.4KB
+assets\img\equipe\Haimon.jpeg: 59.7KB
+assets\css\style.css: 48.9KB
+assets\img\equipe\Kevin.jpeg: 45.4KB
+assets\img\equipe\Jocieli.jpeg: 44.2KB
+
+=== CI/CD PIPELINES ===
+No CI/CD pipelines detected.
+
+=== CONTAINERS & ORCHESTRATION ===
+No containerization configs detected.
+
+=== SECURITY & COMPLIANCE ===
+No security configs detected.
+
+=== PERFORMANCE & TESTING ===
+No performance testing configs detected.
+
+=== SCAN COMPLETE ===

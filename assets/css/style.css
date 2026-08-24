@@ -1,4 +1,3 @@
-@import url('https://googleapis.com');
 
 html {
     scroll-behavior: smooth;
@@ -9,6 +8,7 @@ body {
     margin: 0px;
     height: 100vh;
     padding-top: 60px;
+    font-family: "Poppins", sans-serif;
     background: #0F172A;
     background: linear-gradient(85deg,rgba(15, 23, 42, 1) 11%, rgba(12, 58, 71, 1) 100%);
 }
@@ -155,6 +155,10 @@ background: linear-gradient(85deg,rgba(15, 23, 42, 1) 11%, rgba(12, 58, 71, 1) 1
 
 .logo-hero {
     width: 600px;
+}
+
+button {
+    font-family: inherit;
 }
 
 .button-hero {
@@ -379,6 +383,28 @@ background: linear-gradient(85deg,rgba(15, 23, 42, 1) 11%, rgba(12, 58, 71, 1) 1
 
 .Card-Equipes:hover .Info-Cards-Equipe {
     opacity: 1;
+}
+
+.Social-Card-Equipe {
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.Social-Card-Equipe-Icon {
+    align-items: center;
+    background: #0F172A;
+    border-radius: 50%;
+    display: inline-flex;
+    height: 2rem;
+    justify-content: center;
+    width: 2rem;
+}
+
+.Social-Card-Equipe-Icon img {
+    filter: brightness(0) invert(1);
+    height: 1.1rem;
+    width: 1.1rem;
 }
 
 .Link-Text-Info-Cards-Equipe {
@@ -2473,20 +2499,6 @@ background: linear-gradient(85deg,rgba(15, 23, 42, 1) 11%, rgba(12, 58, 71, 1) 1
     }
 }
 
-@media (prefers-reduced-motion: reduce) {
-    html {
-        scroll-behavior: auto;
-    }
-
-    *,
-    *::before,
-    *::after {
-        scroll-behavior: auto !important;
-        transition-duration: 0.01ms !important;
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-    }
-}
 @media (max-width: 1024px) {
     .hero-decoration {
         opacity: 0.35;
@@ -2509,6 +2521,319 @@ background: linear-gradient(85deg,rgba(15, 23, 42, 1) 11%, rgba(12, 58, 71, 1) 1
 
     .hero-decoration {
         display: none;
+    }
+}
+
+/* Content added to the landing page remains readable at every breakpoint. */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.carousel-control:focus-visible,
+.bolinhas-container button:focus-visible {
+    outline: 3px solid #f4c95d;
+    outline-offset: 3px;
+}
+
+.carrousel-article-cerveja {
+    align-items: stretch;
+    flex-direction: column;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.Div-Carrousel-Img-Sobre-cerveja {
+    animation: none;
+    flex: 1 0 auto;
+    justify-content: flex-start;
+    min-width: 100%;
+    overflow: visible;
+    width: max-content;
+}
+
+.Div-Carrousel-Img-Sobre-cerveja figure {
+    flex: 0 0 auto;
+    margin: 0;
+    scroll-snap-align: start;
+}
+
+.Div-Img-Sobre-mash figure {
+    inset: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.Div-Img-Sobre-mash figcaption {
+    bottom: 0;
+    color: #0f172a;
+    left: 0;
+    padding: 0.35rem 0.5rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+@media (max-width: 769px) {
+    .carrousel-article-cerveja {
+        min-height: 330px;
+    }
+
+    .Div-Carrousel-Img-Sobre-cerveja {
+        min-width: 100%;
+    }
+
+    .sobre-sistema {
+        height: auto;
+        min-height: 0;
+        padding-bottom: 2rem;
+    }
+
+    .Div-Img-Sobre-mash {
+        min-height: 360px;
+    }
+}
+
+.Card-Equipes {
+    height: 280px;
+    min-height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease, transform 0.3s ease;
+}
+
+.Image-Card-Equipe,
+.Card-Equipes:hover .Image-Card-Equipe,
+.Card-Equipes:focus-within .Image-Card-Equipe {
+    display: block;
+    height: 280px;
+    width: 100%;
+    border-radius: 15px;
+    transition: height 0.3s ease, border-radius 0.3s ease;
+}
+
+.Info-Cards-Equipe,
+.Card-Equipes:hover .Info-Cards-Equipe,
+.Card-Equipes:focus-within .Info-Cards-Equipe {
+    background: linear-gradient(transparent, rgba(15, 23, 42, 0.92));
+    bottom: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    left: 0;
+    opacity: 1;
+    padding: 2.5rem 1.25rem 1rem;
+    right: 0;
+    transform: none;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.Info-Cards-Equipe > div:first-child > .Text-Info-Cards-Equipe:nth-child(2),
+.Social-Card-Equipe {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transform: translateY(0.35rem);
+    transition: max-height 0.3s ease, opacity 0.2s ease, transform 0.2s ease;
+}
+
+.Card-Equipes:hover,
+.Card-Equipes:focus-within {
+    height: 350px;
+}
+
+.Card-Equipes:hover .Image-Card-Equipe,
+.Card-Equipes:focus-within .Image-Card-Equipe {
+    height: 240px;
+    border-radius: 15px 15px 0 0;
+}
+
+.Card-Equipes:hover .Info-Cards-Equipe,
+.Card-Equipes:focus-within .Info-Cards-Equipe {
+    background: #ffffff;
+    color: #0f172a;
+}
+
+.Card-Equipes:hover .Info-Cards-Equipe > div:first-child > .Text-Info-Cards-Equipe:nth-child(2),
+.Card-Equipes:hover .Social-Card-Equipe,
+.Card-Equipes:focus-within .Info-Cards-Equipe > div:first-child > .Text-Info-Cards-Equipe:nth-child(2),
+.Card-Equipes:focus-within .Social-Card-Equipe {
+    max-height: 3rem;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.Text-Info-Cards-Equipe {
+    margin: 0.15rem 0;
+}
+
+@media (max-width: 480px) {
+    .equipe {
+        height: auto;
+        min-height: 0;
+    }
+
+    .Card-Equipes {
+        height: 250px;
+    }
+
+    .Image-Card-Equipe,
+    .Card-Equipes:hover .Image-Card-Equipe,
+    .Card-Equipes:focus-within .Image-Card-Equipe {
+        height: 250px;
+    }
+
+    .Card-Equipes:hover,
+    .Card-Equipes:focus-within {
+        height: 320px;
+    }
+}
+
+body,
+body button,
+body input,
+body select,
+body textarea,
+body h1,
+body h2,
+body h3,
+body p,
+body a,
+body li,
+body .Card-Equipes,
+body .td-block-sobre-conloq {
+    font-family: "Poppins", sans-serif;
+}
+
+.purpose-grid {
+    display: grid;
+    grid-template-areas:
+        "purpose-one purpose-one"
+        "purpose-two purpose-three";
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+    margin: 0 auto;
+    max-width: 760px;
+    width: 100%;
+}
+
+.purpose-grid .td-block-sobre-conloq {
+    height: auto;
+    min-height: 220px;
+    width: auto;
+}
+
+.purpose-grid .td-block-sobre-conloq:nth-child(1) {
+    grid-area: purpose-one;
+    justify-self: center;
+    width: min(100%, 360px);
+}
+
+.purpose-grid .td-block-sobre-conloq:nth-child(2) {
+    grid-area: purpose-two;
+}
+
+.purpose-grid .td-block-sobre-conloq:nth-child(3) {
+    grid-area: purpose-three;
+}
+
+.section-note,
+.footer-placeholder,
+.planned-note {
+    line-height: 1.6;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.footer-social-icon {
+    align-items: center;
+    background: #0f172a;
+    border-radius: 50%;
+    display: inline-flex;
+    height: 2.5rem;
+    justify-content: center;
+    width: 2.5rem;
+}
+
+.footer-social-icon img {
+    filter: brightness(0) invert(1);
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.sobre-conloq,
+.equipe,
+.cerveja-artesanal,
+.sobre-sistema,
+.footer {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.equipe {
+    min-height: 600px;
+}
+
+.cerveja-artesanal {
+    min-height: 800px;
+}
+
+.sobre-sistema {
+    min-height: 600px;
+}
+
+.Card-Equipes {
+    flex: 0 1 280px;
+    min-height: 350px;
+}
+
+.Card-Equipes:focus-within {
+    outline: 3px solid #f4c95d;
+    outline-offset: 4px;
+}
+
+@media (max-width: 769px) {
+    .purpose-grid {
+        grid-template-areas:
+            "purpose-one"
+            "purpose-two"
+            "purpose-three";
+        grid-template-columns: 1fr;
+    }
+
+    .purpose-grid .td-block-sobre-conloq:nth-child(1) {
+        width: auto;
+    }
+
+    .purpose-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sobre-conloq,
+    .equipe,
+    .cerveja-artesanal,
+    .sobre-sistema,
+    .footer {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    .Card-Equipes {
+        flex-basis: min(280px, 100%);
     }
 }
 

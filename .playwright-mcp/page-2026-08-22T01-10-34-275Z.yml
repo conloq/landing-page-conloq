@@ -1,0 +1,117 @@
+- generic [ref=f9e2]:
+  - banner [ref=f9e3]:
+    - link "Ir para Sobre a Conloq" [ref=f9e4] [cursor=pointer]:
+      - /url: "#sobre-conloq"
+      - img "Conloq" [ref=f9e5]
+    - navigation "Navegação principal" [ref=f9e6]:
+      - link "Conloq" [ref=f9e7] [cursor=pointer]:
+        - /url: "#sobre-conloq"
+      - link "Equipe" [ref=f9e8] [cursor=pointer]:
+        - /url: "#Section-Equipe"
+      - link "Mash" [ref=f9e9] [cursor=pointer]:
+        - /url: "#Section-Cerveja"
+      - link "Contatos" [ref=f9e10] [cursor=pointer]:
+        - /url: "#Footer"
+  - main [ref=f9e11]:
+    - region [ref=f9e12]:
+      - 'heading "Mash: tecnologia para cervejarias artesanais" [level=1] [ref=f9e13]'
+      - generic [ref=f9e14]:
+        - generic [ref=f9e15]: Tecnologia para cervejarias artesanais
+        - img "Logotipo Mash" [ref=f9e16]
+        - paragraph [ref=f9e17]: Monitore sua produção em tempo real e tome decisões com mais clareza.
+        - link "Conhecer o projeto" [ref=f9e18] [cursor=pointer]:
+          - /url: "#sobre-sistema"
+    - region [ref=f9e21]:
+      - heading "Sobre a Conloq" [level=2] [ref=f9e22]
+      - generic [ref=f9e23]:
+        - article [ref=f9e24]:
+          - paragraph [ref=f9e25]: A Conloq desenvolve soluções multiplataforma para o ecossistema das cervejarias artesanais. Com o Mash, produtores acompanham informações importantes da mosturação e analisam seus registros com mais clareza.
+          - paragraph [ref=f9e26]: O foco atual é apoiar o acompanhamento de temperatura, o teste de iodo e o registro das análises, sem substituir a validação do processo pelo produtor.
+        - article [ref=f9e27]:
+          - heading "Propósitos" [level=2] [ref=f9e28]
+          - generic [ref=f9e29]:
+            - generic [ref=f9e30]:
+              - generic [ref=f9e32]: "01"
+              - paragraph [ref=f9e34]: Aprimorar processos de interação.
+            - generic [ref=f9e35]:
+              - generic [ref=f9e37]: "02"
+              - paragraph [ref=f9e39]: Oferecer ferramentas para facilitar decisões.
+            - generic [ref=f9e40]:
+              - generic [ref=f9e42]: "03"
+              - paragraph [ref=f9e44]: Automatizar processos na cervejaria artesanal.
+    - region [ref=f9e45]:
+      - heading "Equipe" [level=2] [ref=f9e46]
+      - generic [ref=f9e47]:
+        - article [ref=f9e48]:
+          - img "João Alexandre Pinto Camargo" [ref=f9e49]
+          - generic [ref=f9e50]:
+            - paragraph [ref=f9e51]: João Alexandre Pinto Camargo
+            - paragraph [ref=f9e52]: Backend
+        - article [ref=f9e53]:
+          - img "Jocieli Pontes Domingues da Silva" [ref=f9e54]
+          - generic [ref=f9e55]:
+            - paragraph [ref=f9e56]: Jocieli Pontes Domingues da Silva
+            - paragraph [ref=f9e57]: Artigo e documentação
+        - article [ref=f9e58]:
+          - img "Kevin da Silva Oliveira" [ref=f9e59]
+          - generic [ref=f9e60]:
+            - paragraph [ref=f9e61]: Kevin da Silva Oliveira
+            - paragraph [ref=f9e62]: Design
+        - article [ref=f9e63]:
+          - img "Haimon Cugler Vieira" [ref=f9e64]
+          - generic [ref=f9e65]:
+            - paragraph [ref=f9e66]: Haimon Cugler Vieira
+            - paragraph [ref=f9e67]: Frontend
+      - paragraph [ref=f9e68]: As informações de cargo são as definidas no README do projeto.
+    - region [ref=f9e69]:
+      - heading "Cerveja artesanal" [level=2] [ref=f9e70]
+      - generic [ref=f9e71]:
+        - article [ref=f9e72]:
+          - heading "A produção e o teste de iodo" [level=2] [ref=f9e73]
+          - paragraph [ref=f9e74]: Na mosturação, as enzimas convertem os amidos dos grãos em açúcares fermentáveis. O teste de iodo ajuda a indicar se ainda há amido residual.
+          - list [ref=f9e75]:
+            - listitem [ref=f9e76]:
+              - strong [ref=f9e77]: Conversão acompanhada
+              - paragraph [ref=f9e78]: Indica o fim da etapa e apoia a conferência do processo.
+            - listitem [ref=f9e79]:
+              - strong [ref=f9e80]: Eficiência e rendimento
+              - paragraph [ref=f9e81]: Ajuda a identificar desvios antes das próximas etapas.
+            - listitem [ref=f9e82]:
+              - strong [ref=f9e83]: Registro consistente
+              - paragraph [ref=f9e84]: Facilita a comparação das análises feitas pelo produtor.
+        - generic "Galeria de fotos da produção artesanal" [ref=f9e85]:
+          - generic [ref=f9e86]:
+            - button "Imagem anterior" [ref=f9e87] [cursor=pointer]: Anterior
+            - button "Pausar" [ref=f9e88] [cursor=pointer]
+            - button "Próxima imagem" [ref=f9e89] [cursor=pointer]: Próxima
+          - generic [ref=f9e90]:
+            - figure "Produção artesanal" [ref=f9e91]:
+              - img "Cerveja artesanal em produção" [ref=f9e92]
+            - figure "Detalhe do produto" [ref=f9e94]:
+              - img "Detalhe de uma cerveja artesanal" [ref=f9e95]
+            - figure "Etapa do processo" [ref=f9e97]:
+              - img "Etapa do processo de fabricação de cerveja" [ref=f9e98]
+    - region [ref=f9e100]:
+      - heading "Mash" [level=2] [ref=f9e101]
+      - generic [ref=f9e102]:
+        - generic [ref=f9e103]:
+          - paragraph [ref=f9e104]: Estado atual do sistema
+          - paragraph [ref=f9e105]: "O Mash reúne funcionalidades confirmadas para o acompanhamento da mosturação: CRUD de temperatura, CRUD de iodo, login, CRUD de usuários e tratamento de fotos. As telas abaixo representam o estado atual visualizado do projeto."
+          - tablist "Telas do Mash" [ref=f9e106]:
+            - tab "Mostrar tela de temperatura" [selected] [ref=f9e107] [cursor=pointer]
+            - tab "Mostrar tela do painel" [ref=f9e108] [cursor=pointer]
+          - paragraph [ref=f9e109]:
+            - strong [ref=f9e110]: "Planejado ou bloqueado:"
+            - text: não há URLs, integrações ou funcionalidades adicionais confirmadas nesta landing page.
+        - generic [ref=f9e111]:
+          - figure "Painel atual" [ref=f9e112]:
+            - img "Tela atual do painel do Mash"
+          - figure "Acompanhamento atual de temperatura" [ref=f9e114]:
+            - img "Tela atual de acompanhamento de temperatura do Mash"
+    - generic [ref=f9e119]:
+      - generic [ref=f9e120]:
+        - heading "Contate-nos" [level=2] [ref=f9e121]
+        - paragraph [ref=f9e122]: Canais de contato ainda não publicados.
+      - generic [ref=f9e123]:
+        - heading "Redes sociais" [level=2] [ref=f9e124]
+        - paragraph [ref=f9e125]: Perfis sociais ainda não publicados.
