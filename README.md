@@ -1,6 +1,5 @@
 # Landing Page Mash
 
-
 Landing page institucional do projeto **Mash**, desenvolvido pela equipe Conloq no Projeto Integrador.
 
 A página apresenta a Conloq, a equipe responsável, o contexto da produção de cerveja artesanal e a proposta do Mash para apoiar o teste de iodo e o monitoramento da mosturação.
