@@ -3,9 +3,9 @@
 ## Observed architecture
 This is a single-page static website with three practical layers:
 
-1. **Markup/content** — `index.html` defines the document structure, section IDs, text, image references, navigation, and controls.
-2. **Presentation** — `assets/css/style.css` defines global styles, fixed-header layout, section layout, responsive media-query ranges, hover/focus states, CSS animations, and screenshot swapping styles.
-3. **Behavior** — `assets/script/main.js` adds smooth interaction behavior for purpose cards, the automatic beer carousel, and the Mash screenshot toggle.
+1. **Markup/content**: `index.html` defines the document structure, section IDs, text, image references, navigation, and controls.
+2. **Presentation**: `assets/css/style.css` defines global styles, fixed-header layout, section layout, responsive media-query ranges, hover/focus states, CSS animations, and screenshot swapping styles.
+3. **Behavior**: `assets/script/main.js` adds smooth interaction behavior for purpose cards, the automatic beer carousel, and the Mash screenshot toggle.
 
 There is no repository-local API, database, authentication layer, state store, router, or build pipeline.
 

@@ -35,7 +35,7 @@ A landing page possui as seguintes seções:
 - CSS3.
 - JavaScript.
 - SVG para logos e ícones.
-- Google Fonts — Poppins.
+- Google Fonts: Poppins.
 
 O projeto é uma página estática e não possui `package.json` ou etapa de build configurada no repositório atual.
 
