@@ -29,7 +29,7 @@
 - Do not invent issue requirements, URLs, team roles, screenshots, or product status.
 
 ## Unknowns
-- The README is authoritative for team roles: João — Backend; Jocieli — Artigo e documentação; Kevin — Design; Haimon — Frontend.
+- The README is authoritative for team roles: João: Backend; Jocieli: Artigo e documentação; Kevin: Design; Haimon: Frontend.
 - Mash is the current system, and approved functionality for landing-page communication is limited to temperature CRUD, iodine CRUD, login, user CRUD, and photo handling. Other functionality requires confirmation before publication.
 - Issue #13, #18, and #30–#34 details are intentionally unavailable because they are being handled by backend and other responsible teams.
 - [TODO] Establish a formatter/linting policy if one is desired; none is configured.
