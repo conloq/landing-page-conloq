@@ -6,6 +6,14 @@
 - There is no `package.json`, lockfile, build tool, test runner, CI workflow, or repository-defined lint/format/typecheck command. Do not invent an install or build step.
 - The page is Portuguese (`lang="pt-br"`) and uses the externally hosted Poppins font from Google Fonts.
 
+## Product presentation versus implementation
+
+- This landing page presents the complete institutional/commercial product vision. Its content may describe features that are simulated, planned, or not implemented in the current Mash runtime.
+- The landing page is not an implementation authority. Do not infer a working feature from marketing copy; inspect the target SHA in `frontend`/`Back-End`, relevant technical documentation, and live GitHub state.
+- Do not remove, downgrade, or label a presented feature as future/simulated solely because it is not currently implemented. Keep this distinction in the global context and technical documentation, not by rewriting product presentation.
+
+Global context: [conloq/.github/PROJECT_CONTEXT.md](https://github.com/conloq/.github/blob/main/PROJECT_CONTEXT.md).
+
 ## Development
 
 - Preview from the repository root with a static HTTP server, for example `python -m http.server 8000`, then open `http://localhost:8000/`. Serving over HTTP avoids confusing relative-asset behavior with direct `file://` loading.
